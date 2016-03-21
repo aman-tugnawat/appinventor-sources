@@ -30,7 +30,7 @@ This is a quick guide to get started with the sources. More detailed instruction
 ###Dependencies
 You will need a full Java JDK (6 or 7, preferably from Oracle; JRE is not enough) and Python to compile and run the servers.
 
-You will also need a copy of the [App Engine SDK](https://developers.google.com/appengine/downloads) for Java and [ant](http://ant.apache.org/).
+You will also need a copy of the [App Engine SDK](https://developers.google.com/appengine/downloads) for Java and [ant](http://ant.apache.org/). It is recommmed to use the [App Engine SDK version 1.9.27 or lower](https://console.cloud.google.com/storage/browser/appengine-sdks/featured/) for now due to some issue with the new App Engine SDK find more info [here](https://docs.google.com/document/pub?id=1Xc9yt02x3BRoq5m1PJHBr81OOv69rEBy8LVG_84j9jc#h.ugyo85xufxvh) 
 
 If you want to make changes to the source, you are going to need to run an automated test suite, and for that you will also need [phantomjs](http://phantomjs.org/). Have a look at the testing section for more information.
 
